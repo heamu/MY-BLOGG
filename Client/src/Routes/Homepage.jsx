@@ -18,12 +18,11 @@ const Homepage = ()=>{
        <div className="flex items-center justify-between">
           {/* titles */}
           <div className="">
-            <h1 className="text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold">
-              aksdfnasaksdfohasdflmnaslf lasfladfasdkfjasdf
+            <h1 className="text-blue-500 text-2xl md:text-5xl lg:text-6xl font-bold">
+              Welcome to Blogg!!!!
               
             </h1>
-             <p className="mt-8 text-md md:text-xl">asdkjfjaskdjfhaksdfhaklsdhfdasdfsd asdlfagdilfaf aklsdflaksfhkadfkadc akldfalifa
-             asbdladfliaweaskd fiasdfbaksdf asfasdfyas dff f</p>
+             <p className="mt-8 text-md md:text-xl">“Capture the Moments That Matter: Transform Your Thoughts into Engaging Stories That Resonate.”</p>
           </div>
            {/* animated button */}
            <Link to="/write" className="  hidden md:block relative" >
