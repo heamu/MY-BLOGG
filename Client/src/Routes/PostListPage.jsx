@@ -2,9 +2,14 @@ import { useState } from "react";
 import PostList from "../components/PostList";
 import SideMenu from "../components/SideMenu";
 
+
+
+
 const PostListPAge = ()=>{
     
     const [open,setOpen] = useState(false);
+
+
     return (
     <div className="">
         <h1 className='mb-8 text-2xl '>Developmet Blog</h1>
